@@ -8,7 +8,7 @@ $(window).on('load', function() {
   var completePoints = false;
   var completePolygons = false;
   var completePolylines = false;
-
+showMap();
   /**
    * Returns an Awesome marker with specified parameters
    */
@@ -696,7 +696,7 @@ $(window).on('load', function() {
     });
 
     // When all processing is done, hide the loader and make the map visible
-    showMap();
+    // showMap();
 
     function showMap() {
       if (completePoints && completePolylines && completePolygons) {
