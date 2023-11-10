@@ -8,7 +8,7 @@ $(window).on('load', function() {
   var completePoints = false;
   var completePolygons = false;
   var completePolylines = false;
-showMap();
+
   /**
    * Returns an Awesome marker with specified parameters
    */
@@ -59,7 +59,7 @@ showMap();
 
     map.setView(center, zoom);
   }
-
+showMap();
 
   /**
    * Given a collection of points, determines the layers based on 'Group'
