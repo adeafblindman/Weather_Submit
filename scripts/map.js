@@ -927,7 +927,7 @@ $(window).on('load', function() {
     */
   function addBaseMap() {
  
-    var basemap = trySetting('_tileProvider', 'CartoDB.Positron');
+    var basemap = trySetting('_tileProvider', '');
    
     L.tileLayer.provider(basemap, {
       maxZoom: 18,
