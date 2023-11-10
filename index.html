@@ -84,6 +84,11 @@
     marker.on('dragend', function(e) {
       marker.getPopup().setContent(marker.getLatLng().toString()).openOn(map);
     });
+
+    	var imageUrl = 'https://foxholestats.com/images/WorldMapControl.webp',
+   imageBounds = [[82.6, -180], [-82.6, 180]];
+L.imageOverlay(imageUrl, imageBounds).addTo(map);
+
 </script>
   <script type="text/javascript" src="./google-doc-url.js"></script>
   <script type="text/javascript" src="./scripts/constants.js"></script>
