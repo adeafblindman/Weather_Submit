@@ -742,7 +742,7 @@ $(window).on('load', function() {
       }
     }
 
-    // Add Google Analytics if the ID exists
+    // Add Google Analytics if the ID exists 
     var ga = getSetting('_googleAnalytics');
     console.log(ga)
     if ( ga && ga.length >= 10 ) {
