@@ -59,7 +59,7 @@ $(window).on('load', function() {
 
     map.setView(center, zoom);
   }
-showMap();
+
 
   /**
    * Given a collection of points, determines the layers based on 'Group'
@@ -696,7 +696,7 @@ showMap();
     });
 
     // When all processing is done, hide the loader and make the map visible
-    // showMap();
+     showMap();
 
     function showMap() {
       if (completePoints && completePolylines && completePolygons) {
