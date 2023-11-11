@@ -69,29 +69,12 @@
   <table id="maptable" class="display"></table>
 
   <script type="text/javascript">
-    var map = L.map('map'; 
-	//L.tileLayer('https://foxholestats.com/tiles/worldmap_warapi.jpg-tiles/{z}_{x}_{y}.jpg', 
-	  {
-     // continuousWorld: false,
-    //  noWrap: true,  
+    var map = L.map('map', {
       attributionControl: false,
       zoomControl: false,
-      scrollWheelZoom: true,
+      scrollWheelZoom: false,
       tap: false
     }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
-
-
-  	//image overlay
-var imageUrl = 'https://foxholestats.com/images/WorldMapControl.webp',
-	imageBounds = [[82.6, -180], [-82.6, 180]];
-	L.imageOverlay(imageUrl, imageBounds).addTo(map);
-var imageUrl = 'media/SUBREGIONS.png',
-	imageBounds = [[82.6, -180], [-82.6, 180]];
-	L.imageOverlay(imageUrl, imageBounds).addTo(map);
- var imageUrl = 'https://foxholestats.com/tiles/worldmap_warapi.jpg-tiles/{z}_{x}_{y}.jpg',
-	imageBounds = [[82.6, -180], [-82.6, 180]];
-	L.imageOverlay(imageUrl, imageBounds).addTo(map);
-
   </script>
 
   <script type="text/javascript" src="./google-doc-url.js"></script>
