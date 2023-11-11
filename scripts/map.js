@@ -20,7 +20,7 @@ $(window).on('load', function() {
       iconColor: iconColor
     });
   }
-$('.loader').hide();
+
 
   /**
    * Sets the map view so that all markers are visible, or
