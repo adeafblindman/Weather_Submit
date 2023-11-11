@@ -931,7 +931,7 @@ $(window).on('load', function() {
 
     // L.tileLayer.provider(basemap, {
     L.tileLayer('https://foxholestats.com/tiles/worldmap_warapi.jpg-tiles/{z}_{x}_{y}.jpg', {
-      maxZoom: 5,
+      maxZoom: 18,
       continuousWorld: false,
       noWrap: true,  
       // Pass the api key to most commonly used parameters
