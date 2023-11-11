@@ -70,9 +70,12 @@
 
   <script type="text/javascript">
     var map = L.map('map', {
+	L.tileLayer('https://foxholestats.com/tiles/worldmap_warapi.jpg-tiles/{z}_{x}_{y}.jpg', {
+      continuousWorld: false,
+      noWrap: true,  
       attributionControl: false,
       zoomControl: false,
-      scrollWheelZoom: false,
+      scrollWheelZoom: true,
       tap: false
     }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
 
