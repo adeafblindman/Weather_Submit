@@ -96,6 +96,49 @@
         "type": "Polygon"
       },
       "id": 1
-    }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Basin Sionnach",
+        "SubRegion": "The Den",
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#245582",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -12.348633,
+              77.952414
+            ],
+            [
+              1.538086,
+              77.176684
+            ],
+            [
+              3.164063,
+              79.021712
+            ],
+            [
+              -5.097656,
+              80.725269
+            ],
+            [
+              -12.348633,
+              77.952414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 2
+    },
+	
+	
   ]
 }
