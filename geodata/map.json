@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Basin Sionnach",
+        "SubRegion": "Sess",
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#245582",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -25.795898,
+              78.95456
+            ],
+            [
+              -20.610352,
+              77.22536
+            ],
+            [
+              -12.436523,
+              77.924866
+            ],
+            [
+              -5.185547,
+              80.760615
+            ],
+            [
+              -7.470703,
+              82.477584
+            ],
+            [
+              -12.832031,
+              82.506295
+            ],
+            [
+              -25.795898,
+              78.95456
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 0
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Region": "Basin Sionnach",
+        "SubRegion": "Cuttail Station",
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#245582",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -7.602539,
+              82.489081
+            ],
+            [
+              -5.229492,
+              80.844901
+            ],
+            [
+              3.295898,
+              79.071812
+            ],
+            [
+              11.293945,
+              79.552581
+            ],
+            [
+              16.171875,
+              81.621352
+            ],
+            [
+              12.875977,
+              82.500561
+            ],
+            [
+              -7.602539,
+              82.489081
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": 1
+    }
+  ]
+}
