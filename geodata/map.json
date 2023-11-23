@@ -10,7 +10,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#245582",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        "Team": "WARDENS"
       },
       "geometry": {
         "coordinates": [
@@ -58,7 +59,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#245582",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        "Team": "WARDENS"
       },
       "geometry": {
         "coordinates": [
@@ -97,7 +99,6 @@
       },
       "id": 1
     },
-
     {
       "type": "Feature",
       "properties": {
@@ -107,7 +108,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "fill": "#245582",
-        "fill-opacity": 0.5
+        "fill-opacity": 0.5,
+        "Team": "COLONIALS"
       },
       "geometry": {
         "coordinates": [
@@ -138,7 +140,5 @@
       },
       "id": 2
     }
-	
-	
   ]
 }
