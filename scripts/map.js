@@ -69,7 +69,7 @@ $(window).on('load', function() {
     var groups = [];
     var layers = {};
 
-    for (var i in SubmitPoints) {
+    for (var i in points) {
       var group = points[i].Group;
       if (group && groups.indexOf(group) === -1) {
         // Add group to groups
