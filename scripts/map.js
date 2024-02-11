@@ -65,7 +65,7 @@ $(window).on('load', function() {
    * Given a collection of points, determines the layers based on 'Group'
    * column in the spreadsheet.
    */
-  function determineLayers(points) {
+  function determineLayers(points123) {
     var groups = [];
     var layers = {};
 
