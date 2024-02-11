@@ -47,7 +47,7 @@ $(window).on('load', function() {
       zoomSet = true;
     }
 
-    if ((latSet && lonSet) || !points) {
+    if ((latSet && lonSet) || !SubmitPoints) {
       center = L.latLng(lat, lon);
     } else {
       center = points.getBounds().getCenter();
