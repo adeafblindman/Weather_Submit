@@ -47,7 +47,7 @@ $(window).on('load', function() {
       zoomSet = true;
     }
 
-    if ((latSet && lonSet) || !SubmitPoints) {
+    if ((latSet && lonSet) || !points) {
       center = L.latLng(lat, lon);
     } else {
       center = points.getBounds().getCenter();
@@ -65,7 +65,7 @@ $(window).on('load', function() {
    * Given a collection of points, determines the layers based on 'Group'
    * column in the spreadsheet.
    */
-  function determineLayers(points) {
+  function determineLayers(SubmitPoints) {
     var groups = [];
     var layers = {};
 
