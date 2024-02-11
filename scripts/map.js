@@ -612,7 +612,7 @@ $(window).on('load', function() {
     var layers;
     var group = '';
     if (points && points.length > 0) {
-      layers = determineLayers(points);
+      layers = determineLayers(Submit Points);
       group = mapPoints(points, layers);
     } else {
       completePoints = true;
