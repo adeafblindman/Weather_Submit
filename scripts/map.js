@@ -65,11 +65,11 @@ $(window).on('load', function() {
    * Given a collection of points, determines the layers based on 'Group'
    * column in the spreadsheet.
    */
-  function determineLayers(SubmitPoints) {
+  function determineLayers(points) {
     var groups = [];
     var layers = {};
 
-    for (var i in points) {
+    for (var i in SubmitPoints) {
       var group = points[i].Group;
       if (group && groups.indexOf(group) === -1) {
         // Add group to groups
