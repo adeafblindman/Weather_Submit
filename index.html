@@ -108,7 +108,7 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
 var options = {
   class: "iFrameClass",
   endpoint: "http://app.singular.live",
-  interactive: true,
+  interactive: false,
   syncGraphics: false,
   showPreloader: false,
   aspect: "",
@@ -116,7 +116,7 @@ var options = {
 
 var overlay = SingularOverlay("#DomElement", options, (params) => {
   // callback code goes here
-	overlay.setContent(content, (params) => {
+overlay.setContent(content, (params) => {
   // called when content finished loading
 // defining composition revision URL as string
 var content = "https://assets.singular.live/392a9b828b4cb0743373404d8acc8fff/jsons/5qD42N33BD89Tit0MJrS8j.json";
