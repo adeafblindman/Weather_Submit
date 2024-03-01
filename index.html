@@ -69,9 +69,6 @@
 <body>
 
 
-<
-  <!-- inside the div the iFrame of the overlay will be created -->
-  <div id="SingularOverlay" style="width:720px; height: 400px;"></div>
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
@@ -93,7 +90,8 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
    imageBounds = [[82.6, -180], [-82.6, 180]];
 L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
-	  
+	  <!-- inside the div the iFrame of the overlay will be created -->
+  <div id="SingularOverlay" style="width:720px; height: 400px;"></div>  
 
 //Coordinate Finder
     var marker = L.marker([0, 0], {
