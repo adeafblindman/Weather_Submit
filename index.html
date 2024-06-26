@@ -100,11 +100,11 @@ L.imageOverlay(imageUrl, imageBounds).addTo(map);
 
 
 // Storm Circles
-	  L.circleMarker([0, 0], {radius: 100});
-		stoke: true,
-	  	color: #FFFF00,
-		fill: true,
-		color: #FFFF00,
+	  L.circleMarker([0, 0], {radius: 100},
+		{stoke: true},
+	  	{color: #FFFF00},
+	  	{fill: true},
+	  	{color: #FFFF00})
 		  .addTo(map);
 	  
 
