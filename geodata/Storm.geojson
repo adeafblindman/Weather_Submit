@@ -1,0 +1,12 @@
+var geojsonFeature = {
+    "type": "Feature",
+    "properties": {
+        "name": "T Storm Advisory",
+		 "fill": "#FF9900",
+		 "radius": 2800000,
+    },
+    "geometry": {
+        "type": "Circle",
+        "coordinates": [0, 0]
+    }
+};
