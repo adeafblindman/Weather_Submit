@@ -1,9 +1,19 @@
- "type": "Feature",
-    "properties": {
-        "Type": "Thunder Watch",
-    },
-    "geometry": {
-        "type": "Circle",
-	"radius": 2800000,
-        "coordinates": [0, 0]
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Thunder Warning"
+      },
+      "geometry": {
+        "coordinates": [
+          0,
+          0
+        ],
+        "type": "Point"
+      },
+      "id": 0
     }
+  ]
+}
