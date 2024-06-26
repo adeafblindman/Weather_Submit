@@ -1,5 +1,4 @@
-var geojsonFeature = {
-    "type": "Feature",
+ "type": "Feature",
     "properties": {
         "name": "T Storm Advisory",
 		 "fill": "#FF9900",
@@ -8,5 +7,4 @@ var geojsonFeature = {
     "geometry": {
         "type": "Circle",
         "coordinates": [0, 0]
-    }
-};
+    };
