@@ -930,7 +930,7 @@ $(window).on('load', function() {
     var basemap = trySetting('_tileProvider', 'CartoDB.Positron');
 
     // L.tileLayer.provider(basemap, {
-    L.tileLayer('/media/map/{z}/{x}/{y}.png', {   
+    L.tileLayer('https://raw.githubusercontent.com/adeafblindman/Leaflet-map-w-google-sheet/refs/heads/main/media/map/{z}/{x}/{y}.png', {
 	//https://foxholestats.com/tiles/worldmap_warapi.jpg-tiles/{z}_{x}_{y}.jpg'
       maxZoom: 5,
       continuousWorld: false,
